@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Login Page</title>
+
+</head>
+<body class="bg-gray-400 flex items-center justify-center mt-20">
+
+  <div class="bg-white p-8 rounded-2xl shadow-xl w-90 ">
+    <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Login</h2>
+
+    <form>
+      <div class="font-semibold text-1xl pt-1">
+        Email:
+        <input type="email" class="w-full mt-1 px-4 py-2 border rounded-lg " />
+      </div>
+
+      <div class="font-semibold text-1xl pt-1">
+        Password:
+        <input type="password" class="w-full mt-1 px-4 py-2 border rounded-lg " />
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <label class="flex items-center text-sm">
+          <input type="checkbox" class="mr-2">
+          Remember me
+        </label>
+        
+      </div>
+
+      <div class="pt-1">
+        <button type="submit"
+        class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">
+        Sign In
+      </button>
+      </div>
+    </form>
+
+    <p class="text-sm text-center text-gray-600 mt-6">
+      Don't have an account?
+      <a href="#">Sign up</a>
+    </p>
+  </div>
+
+</body>
+</html>
